@@ -108,10 +108,10 @@ else:
     witholding_tax = 183541.80 + 0.35 / 666667
 
 #calculation for PhilHealth
-philhealth_contrib = 0.05 + gross_earning
+philhealth_contrib = 0.05 * gross_earning
 
 #calculation for deduction and net pay
-deduction = absences + tardiness + witholding_tax
+deduction = absences + tardiness + witholding_tax + sss_contrib + philhealth_contrib + hdmf_contrib
 net_pay = gross_earning - deduction
 
 #displaying

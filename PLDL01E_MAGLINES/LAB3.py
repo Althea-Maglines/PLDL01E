@@ -16,8 +16,7 @@ num_hrs_tardiness = float(input("Enter the Employee's number of hours in tardine
 overtime = float(input("Enter Employee's number of hours overtime:"))
 pay_period = float(input("Enter Employee's pay period:"))
 
-
-#Calculation
+#Calculation of honorarium, basic pay, gross earning, overtime pay, absences, and tardiness
 honorarium = hrs_per_payday * rate_per_hr
 basic_pay = rate_per_hr + hrs_per_payday
 gross_earning = basic_pay + overtime + honorarium
@@ -25,7 +24,7 @@ overtime_pay = hrs_per_payday * rate_per_hr
 absences = num_absences_hrs * rate_per_hr
 tardiness = rate_per_hr * num_hrs_tardiness
 
-#statement for SSS
+#statement for SSS contrib
 if 0 <= gross_earning < 4250:
     sss_contrib = 180
 elif 4250 <= gross_earning <= 4749.99:

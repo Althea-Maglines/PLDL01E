@@ -2,7 +2,7 @@
 class Student:
 
     # Initialization
-    def __init__(self):
+    def __init__ (self):
 
         # Getting the values for the student info
         self.student_name = input("Enter Student Name: ")
@@ -29,7 +29,7 @@ class Student:
 class AssessmentFee:
 
     # Getting the Value for Student Assessment Fees
-    def __init__(self):
+    def __init__(self, student):
         self.student = student
         self.total_units = self.student.sum_units()
         self.tuition = 0

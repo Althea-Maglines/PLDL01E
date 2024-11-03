@@ -7,13 +7,13 @@ unit_width = 10
 
 def display_student_information():
 
-    print(f"\n\n\nStudent Name: {student.student_name:<30} Student Number: {student.student_number:<15}")
-    print(f"Student Course: {student.student_course:<30} Academic Year: {student.academic_year:<15}")
+    print(f"\n\n\nNAME: {student.student_name:<30}   STUDENT NO: {student.student_number:<15}")
+    print(f"COURSE: {student.course:<30} ACADEMIC YEAR: {student.academic_year:<15}")
 
 # Displaying Assessment Fee
 def display_assessment_fee():
     print("-" * (section_width + subject_width + unit_width + 15))
-    print("Assessment Fee")
+    print("ASSESSMENT OF FEES")
     print("-" * (section_width + subject_width + unit_width + 15))
     print(f"Tuition Fee Lecture: {assessment.tuition_fee():<{unit_width}}")
     print(f"LPU Chronicle: {assessment.chronicle:<{unit_width}}")
@@ -25,7 +25,7 @@ def display_assessment_fee():
     print(f"Guidance Fee: {assessment.guidance:<{unit_width}}")
     print(f"Insurance Fee: {assessment.insurance_fee:<{unit_width}}")
     print(f"Learning Management System: {assessment.learning_management_system:<{unit_width}}")
-    print(f"Library Fee: {assessment.library:<{unit_width}}")
+    print(f"Library Fee: {assessment.library_fee:<{unit_width}}")
     print(f"Medical and Dental Fee: {assessment.medical_and_dental:<{unit_width}}")
     print(f"Registration Fee: {assessment.registration:<{unit_width}}")
     print(f"Recognized Student Government: {assessment.rso:<{unit_width}}")
@@ -43,15 +43,15 @@ def display_assessment_fee():
 
 def display_schedule_of_payment():
     print('=' * (section_width + subject_width + unit_width + 15))
-    print("Schedule of Payment of outstanding balance after downpayment prior for: ")
+    print("Schedule of Payment of outstanding balance after downpayment prior for: ".center(section_width + subject_width + unit_width + 15))
     print('=' * (section_width + subject_width + unit_width + 15))
-    print("Prelim:", assessment.total_due() / 3)
-    print("Midterm:", assessment.total_due() / 3)
-    print("Final:", assessment.total_due() / 3)
+    print(f"Prelim: {assessment.total_due() / 3}".center(section_width + subject_width + unit_width + 15))
+    print(f"Midterm: {assessment.total_due() / 3}".center(section_width + subject_width + unit_width + 15))
+    print(f"Final: {assessment.total_due() / 3}".center(section_width + subject_width + unit_width + 15))
     print('=' * (section_width + subject_width + unit_width + 15))
-    print("*There will be a 60% surcharge for late payment.")
+    print("*There will be a 60% surcharge for late payment.".center(section_width + subject_width + unit_width + 15))
     print('=' * (section_width + subject_width + unit_width + 15))
-    print("THIS IS A TEMPORARY ASSESSMENT")
+    print("THIS IS A TEMPORARY ASSESSMENT".center(section_width + subject_width + unit_width + 15))
     print('=' * (section_width + subject_width + unit_width + 15))
 
 student = LABORATORY_5_CLASS.Student()

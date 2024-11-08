@@ -11,8 +11,13 @@ unit_width = 10
 
 # Displaying Student Information
 def display_student_information():
-    print(f"\n\nNAME: {student.student_name:<30}   STUDENT NO: {student.student_number:<15}")
-    print(f"COURSE: {student.course:<30} ACADEMIC YEAR: {student.academic_year:<15}")
+    print("-" * (section_width + subject_width + unit_width + 15))
+    print("                                                    Office of the Registrar")
+    print("\n")
+    print("CERTIFICATE OF ENROLLMENT".center( section_width + subject_width + unit_width + 15))
+    print("2nd Semester, 2022 - 2023".center( section_width + subject_width + unit_width + 15))
+    print(f"\nNAME: {student.student_name:<30}                     STUDENT NO: {student.student_number:<15}")
+    print(f"COURSE: {student.course:<30}                   ACADEMIC YEAR: {student.academic_year:<15}")
     print("-" * (section_width + subject_width + unit_width + 15))
     print(f"{'SECTION':<{section_width}}{'SUBJECT':<{subject_width}} {'UNIT':<{unit_width}}")
     print("-" * (section_width + subject_width + unit_width + 15))

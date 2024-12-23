@@ -47,27 +47,27 @@ class Design_GUI_Interface:
 
     def textbox_design1(self, x, y):
         self.textbox = Text(width=35, height=1, fg='black', bg='white',
-        font=('Helvetica', 11, 'bold'), )
+        font=('Helvetica', 11) )
         self.textbox.place(x=x, y=y)
 
     def textbox_design2(self, x, y):
         self.textbox = Text(width=15, height=1, fg='black', bg='white',
-        font=('Helvetica', 11, 'bold'))
+        font=('Helvetica', 11))
         self.textbox.place(x=x, y=y)
 
     def textbox_design3(self, x, y):
         self.textbox = Text(width=45, height=1, fg='black', bg='white',
-        font=('Helvetica', 11, 'bold'))
+        font=('Helvetica', 11))
         self.textbox.place(x=x, y=y)
 
     def textbox_design4(self, x, y):
         self.textbox = Text(width=10, height=1, fg='black', bg='white',
-        font=('Helvetica', 11, 'bold'))
+        font=('Helvetica', 11))
         self.textbox.place(x=x, y=y)
 
     def textbox_design5(self, x, y):
         self.textbox = Text(width=20, height=1, fg='black', bg='white',
-        font=('Helvetica', 11, 'bold'))
+        font=('Helvetica', 11))
         self.textbox.place(x=x, y=y)
 
     def label_design(self, x, y, text_value):

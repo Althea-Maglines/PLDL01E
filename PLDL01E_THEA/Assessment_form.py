@@ -9,7 +9,7 @@ window.title("Assessment Form")
 window.state('zoomed')
 
 # Load and resize the image
-image = Image.open(r"C:\Users\Worldtech Computer\PycharmProjects\PLDL01E\PLDL01E_THEA\green_1.jpeg")  # Replace with your image path
+image = Image.open(r"C:\Users\Worldtech Computer\PycharmProjects\PLDL01E\PLDL01E_THEA\lyceum_cav.jpg")  # Replace with your image path
 image = image.resize((100, 100))  # Adjust size as needed
 photo = ImageTk.PhotoImage(image)
 
@@ -18,7 +18,7 @@ header_frame = tk.Frame(window, bg= '#9c2824')
 header_frame.pack(fill="x")
 
 # Create a label for the image
-image_label = tk.Label(header_frame, image=photo, bg='white')
+image_label = tk.Label(header_frame, image=photo, bg='#9c2824')
 image_label.place(x=505, y=5)
 
 # Create a label for the title

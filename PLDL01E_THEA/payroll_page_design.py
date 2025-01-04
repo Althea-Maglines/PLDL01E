@@ -8,65 +8,65 @@ window.title("Payroll Page Design")
 window.state('zoomed')
 window.configure(bg="#dbd2c1")
 
-class Design_GUI_Interface:
+class Payroll_Page_Design:
     def __init__(self):
         pass  # No need for unused arguments in the constructor
 
-    def frames(self, x, y):
-        self.frame1 = Frame(window, width=600, height=1000, borderwidth=0, bg='#ebeae7')
-        self.frame1.place(x=x, y=y)
+    def frame(self, x, y):
+        self.frames = Frame(window, width=600, height=1000, borderwidth=0, bg='#ebeae7')
+        self.frames.place(x=x, y=y)
 
-    def frames2(self, x, y):
-        self.frame1 = Frame(window, width=433, height=165, borderwidth=0, bg='#ebeae7')
-        self.frame1.place(x=x, y=y)
+    def frame2(self, x, y):
+        self.frames2 = Frame(window, width=433, height=165, borderwidth=0, bg='#ebeae7')
+        self.frames2.place(x=x, y=y)
 
-    def frames3(self, x, y):
-        self.frame1 = Frame(window, width=433, height=165, borderwidth=0, bg='#ebeae7')
-        self.frame1.place(x=x, y=y)
+    def frame3(self, x, y):
+        self.frames3 = Frame(window, width=433, height=165, borderwidth=0, bg='#ebeae7')
+        self.frames3.place(x=x, y=y)
 
-    def frames4(self, x, y):
-        self.frame1 = Frame(window, width=433, height=165, borderwidth=0, bg='#ebeae7')
-        self.frame1.place(x=x, y=y)
+    def frame4(self, x, y):
+        self.frames4 = Frame(window, width=433, height=165, borderwidth=0, bg='#ebeae7')
+        self.frames4.place(x=x, y=y)
 
-    def frames5(self, x, y):
-        self.frame1 = Frame(window, width=600, height=280, borderwidth=0, bg='#aaaaaa')
-        self.frame1.place(x=x, y=y)
+    def frame5(self, x, y):
+        self.frames5 = Frame(window, width=600, height=280, borderwidth=0, bg='#aaaaaa')
+        self.frames5.place(x=x, y=y)
 
-    def frames6(self, x, y):
-        self.frame1 = Frame(window, width=600, height=50, borderwidth=0, bg='white')
-        self.frame1.place(x=x, y=y)
+    def frame6(self, x, y):
+        self.frames6 = Frame(window, width=600, height=50, borderwidth=0, bg='white')
+        self.frames6.place(x=x, y=y)
 
-    def frames7(self, x, y):
-        self.frame1 = Frame(window, width=600, height=50, borderwidth=0, bg='#e8e8e8')
-        self.frame1.place(x=x, y=y)
+    def frame7(self, x, y):
+        self.frames7 = Frame(window, width=600, height=50, borderwidth=0, bg='#e8e8e8')
+        self.frames7.place(x=x, y=y)
 
-    def frames8(self, x, y):
-        self.frame1 = Frame(window, width=433, height=50, borderwidth=0, bg='white')
-        self.frame1.place(x=x, y=y)
+    def frame8(self, x, y):
+        self.frames8 = Frame(window, width=433, height=50, borderwidth=0, bg='white')
+        self.frames8.place(x=x, y=y)
 
-    def frames9(self, x, y):
-        self.frame1 = Frame(window, width=433, height=50, borderwidth=0, bg='#e8e8e8')
-        self.frame1.place(x=x, y=y)
+    def frame9(self, x, y):
+        self.frames9 = Frame(window, width=433, height=50, borderwidth=0, bg='#e8e8e8')
+        self.frames9.place(x=x, y=y)
 
-    def frames10(self, x, y):
-        self.frame1 = Frame(window, width=1309, height=100, borderwidth=0, bg='#ebeae7')
-        self.frame1.place(x=x, y=y)
+    def frame10(self, x, y):
+        self.frames10 = Frame(window, width=1309, height=100, borderwidth=0, bg='#ebeae7')
+        self.frames10.place(x=x, y=y)
 
-    def frames11(self, x, y):
-        self.frame1 = Frame(window, width=1309, height=50, borderwidth=0, bg='white')
-        self.frame1.place(x=x, y=y)
+    def frame11(self, x, y):
+        self.frames11 = Frame(window, width=1309, height=50, borderwidth=0, bg='white')
+        self.frames11.place(x=x, y=y)
 
-    def frames12(self, x, y):
-        self.frame1 = Frame(window, width=1309, height=50, borderwidth=0, bg='#e8e8e8')
-        self.frame1.place(x=x, y=y)
+    def frame12(self, x, y):
+        self.frames12 = Frame(window, width=1309, height=50, borderwidth=0, bg='#e8e8e8')
+        self.frames12.place(x=x, y=y)
 
-    def frames13(self, x, y):
-        self.frame1 = Frame(window, width=1309, height=200, borderwidth=0, bg='#ebeae7')
-        self.frame1.place(x=x, y=y)
+    def frame13(self, x, y):
+        self.frames13 = Frame(window, width=1309, height=200, borderwidth=0, bg='#ebeae7')
+        self.frames13.place(x=x, y=y)
 
-    def frames14(self, x, y):
-        self.frame1 = Frame(window, width=1309, height=50, borderwidth=0, bg='#ebeae7')
-        self.frame1.place(x=x, y=y)
+    def frame14(self, x, y):
+        self.frames14 = Frame(window, width=1309, height=50, borderwidth=0, bg='#ebeae7')
+        self.frames14.place(x=x, y=y)
 
     def textbox_design1(self, x, y):
         self.textbox = Text(width=20, height=1, fg='black', bg='light gray',
@@ -125,26 +125,26 @@ class Design_GUI_Interface:
                                     font=('Helvetica', 13, 'bold'), cursor='hand2', border=0)
         self.upload_button.place(x=x, y=y)
 
-my_gui_design = Design_GUI_Interface()
+my_gui_design = Payroll_Page_Design()
 
 # Create frames
-my_gui_design.frames(0, 157)
-my_gui_design.frames2(606, 157)
-my_gui_design.frames3(1044, 157)
-my_gui_design.frames4(1482, 157)
-my_gui_design.frames6(0, 425)
-my_gui_design.frames7(0, 480)
-my_gui_design.frames6(0, 535)
-my_gui_design.frames7(0, 590)
-my_gui_design.frames6(0, 645)
-my_gui_design.frames7(0, 700)
-my_gui_design.frames6(0, 755)
-my_gui_design.frames7(0, 810)
-my_gui_design.frames6(0, 865)
-my_gui_design.frames7(0, 920)
-my_gui_design.frames10(606, 380)
-my_gui_design.frames13(606, 500)
-my_gui_design.frames14(606, 750)
+my_gui_design.frame(0, 157)
+my_gui_design.frame2(606, 157)
+my_gui_design.frame3(1044, 157)
+my_gui_design.frame4(1482, 157)
+my_gui_design.frame6(0, 425)
+my_gui_design.frame7(0, 480)
+my_gui_design.frame6(0, 535)
+my_gui_design.frame7(0, 590)
+my_gui_design.frame6(0, 645)
+my_gui_design.frame7(0, 700)
+my_gui_design.frame6(0, 755)
+my_gui_design.frame7(0, 810)
+my_gui_design.frame6(0, 865)
+my_gui_design.frame7(0, 920)
+my_gui_design.frame10(606, 380)
+my_gui_design.frame13(606, 500)
+my_gui_design.frame14(606, 750)
 
 #creating a header title
 # Create a frame for the header
@@ -237,9 +237,9 @@ title_frame.place(x=0, y=106, anchor="w", relwidth=1)
 uploadbutton = my_gui_design.button_design(180, 360)
 
 # creating frames for basic income
-my_gui_design.frames8(606, 167)
-my_gui_design.frames9(606, 222)
-my_gui_design.frames8(606, 277)
+my_gui_design.frame8(606, 167)
+my_gui_design.frame9(606, 222)
+my_gui_design.frame8(606, 277)
 
 # creating a label for basic income
 rateperhr_lbl = my_gui_design.label_design2(625, 177, 'Rate / Hour : ')
@@ -253,9 +253,9 @@ income_cutofftxt = my_gui_design.textbox_design2(915, 291.5)
 
 
 # creating frames for honorarium income
-my_gui_design.frames8(1044, 167)
-my_gui_design.frames9(1044, 222)
-my_gui_design.frames8(1044, 277)
+my_gui_design.frame8(1044, 167)
+my_gui_design.frame9(1044, 222)
+my_gui_design.frame8(1044, 277)
 
 # creating a label for honorarium income
 rateperhr1_lbl = my_gui_design.label_design2(1063, 177, 'Rate / Hour : ')
@@ -264,20 +264,20 @@ income_cutoff1_lbl = my_gui_design.label_design2(1063, 287.5, 'Income / Cut Off 
 
 # Creating a text box for honorarium income
 rateperhr1txt = my_gui_design.textbox_design2(1353, 182)
-numhrs_cutoff1txt = my_gui_design.textbox_design3(1353, 237)
+numhrs_cutoff1txt = my_gui_design.textbox_design2(1353, 237)
 income_cutoff1txt = my_gui_design.textbox_design2(1353, 291.5)
 
-# creating frames for honorarium income
-my_gui_design.frames8(1482, 167)
-my_gui_design.frames9(1482, 222)
-my_gui_design.frames8(1482, 277)
+# creating frames for other income
+my_gui_design.frame8(1482, 167)
+my_gui_design.frame9(1482, 222)
+my_gui_design.frame8(1482, 277)
 
-# creating a label for honorarium income
+# creating a label for other income
 rateperhr2_lbl = my_gui_design.label_design2(1501, 177, 'Rate / Hour : ')
 numhrs_cutoff2_lbl = my_gui_design.label_design3(1501, 233, 'No. of Hours / Cut Off : ')
 income_cutoff2_lbl = my_gui_design.label_design2(1501, 287.5, 'Income / Cut Off : ')
 
-# Creating a text box for honorarium income
+# Creating a text box for other income
 rateperhr2txt = my_gui_design.textbox_design2(1791, 182)
 numhrs_cutoff2txt = my_gui_design.textbox_design2(1791, 237)
 income_cutoff2txt = my_gui_design.textbox_design2(1791, 291.5)
@@ -292,9 +292,9 @@ title_label.pack(anchor="w", padx=60, pady=10)  # Add padding to center the text
 title_frame = tk.Frame(window, bg="#102f54", height=50)  # Adjust height as needed
 title_frame.place(x=606, y=357.5, anchor="w", width=40)
 
-# creating frames for honorarium income
-my_gui_design.frames11(606, 387)
-my_gui_design.frames12(606, 442)
+# creating frames for regular deductions
+my_gui_design.frame11(606, 387)
+my_gui_design.frame12(606, 442)
 
 # creating a label for regular deductions
 ssscontrib_lbl = my_gui_design.label_design2(625, 397, 'SSS Contribution : ')
@@ -302,13 +302,13 @@ philhlthcontrib_lbl = my_gui_design.label_design3(625, 452, 'PhilHealth Contribu
 pagibigcontrib_lbl = my_gui_design.label_design2(1350, 397, 'Pag-ibig Contribution : ')
 incometax_lbl = my_gui_design.label_design3(1350, 452, 'Income Tax : ')
 
-# creating a text box for regular deducation
+# creating a text box for regular deductions
 ssscontribtxt = my_gui_design.textbox_design3(1000, 402)
 philhlthcontribtxt = my_gui_design.textbox_design3(1000, 457)
 pagibigcontribtxt = my_gui_design.textbox_design3(1730, 402)
 incometaxtxt = my_gui_design.textbox_design3(1730, 457)
 
-# Create a frame for other deductions
+# Create a frame other deduction
 title_frame = tk.Frame(window, bg="black", height=1)  # Adjust height as needed
 title_frame.place(x=606, y=523.5, anchor="w", width=1309)  # Use side="bottom" to anchor it at the bottom
 
@@ -319,9 +319,9 @@ title_frame = tk.Frame(window, bg="#102f54", height=50)  # Adjust height as need
 title_frame.place(x=606, y=523.5, anchor="w", width=40)
 
 # creating frames for other deduction
-my_gui_design.frames11(606, 553)
-my_gui_design.frames12(606, 608)
-my_gui_design.frames11(606, 663)
+my_gui_design.frame11(606, 553)
+my_gui_design.frame12(606, 608)
+my_gui_design.frame11(606, 663)
 
 #creating a label for other deduction
 sssloan_lbl = my_gui_design.label_design2(625, 563, 'SSS Loan : ')
@@ -350,13 +350,13 @@ title_frame = tk.Frame(window, bg="#102f54", height=50)  # Adjust height as need
 title_frame.place(x=606, y=743.5, anchor="w", width=40)
 
 # creating frames for deduction summary
-my_gui_design.frames11(606, 773)
+my_gui_design.frame11(606, 773)
 
 #creating a label for deduction summary
-sssloan_lbl = my_gui_design.label_design2(625, 783, 'Total Deductions : ')
+totaldeduct_label = my_gui_design.label_design2(625, 783, 'Total Deductions : ')
 
 #creating a text box for deduction summary
-sssloantxt = my_gui_design.textbox_design3(1730, 783)
+totaldeducttxt = my_gui_design.textbox_design3(1730, 783)
 
 # Create a frame for button
 title_frame = tk.Frame(window, bg="black", height=1)  # Adjust height as needed
